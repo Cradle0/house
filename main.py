@@ -1,7 +1,8 @@
 import calc
 import os
+import sys
 
-def main():
+def main(argv):
 	valid = False
 	while not valid:
 		try:
@@ -22,5 +23,5 @@ def main():
 	print(calc.mortgage_calc(principal,down,period,freq,rate))
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
 

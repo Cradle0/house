@@ -34,7 +34,6 @@ def interest_rate(rate,freq):
 	return rate
 
 
-print(mortgage_calc(100000,0,10,"m",1))
 
 
 
